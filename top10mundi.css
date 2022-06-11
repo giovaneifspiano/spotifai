@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: large;
+}
+/* CABEÇALHO */
+header {
+    width: 100%;
+    height: 2cm;
+    background-color: #22262c;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+/* CABEÇALHO */
+header .cabeçalho {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3cm;
+    background-color: #22262c;
+    background-size: cover;
+    
+}
+/* CABEÇALHO */
+header .cabeçalho li{
+    display: inline-block;
+}
+/* CABEÇALHO */
+header .cabeçalho a{
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+/* CABEÇALHO */
+header .cabeçalho ul a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(119, 83, 124);
+}
+/* CABEÇALHO */
+.logo img{
+    margin-left: 1%;
+    width: 65px;
+    height: 65px;
+}
+
+.youtubelogo{
+    width: 50%;
+    height: 50%;   
+}
+
+.youtubelogo:hover{
+    filter: invert(75%);
+    }
+
+
+.vertical li{
+    text-shadow: red -2px 0, cyan 2px 0;
+    font-family: monospace;
+    color: #d0d0d0;
+    font-size: 180%;
+}   
+
+
+.vertical .ulvertical{
+    text-align: center;
+}
+/* CABEÇALHO */
+.logo:hover{
+    filter:invert(75%)
+}
+
+/* CABEÇALHO VERTICAL */
+.vertical{
+    margin-top: 5%;
+    position: fixed;
+    width: 7%;
+    height: 500%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #22262c;
+    background-size: cover;
+    
+}
+.vertical li{
+    display: inline-block;
+    margin-top: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vertical a{
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+
+.vertical ul a:hover{
+    color: rgb(119, 83, 124);
+
+}
+
+
+/* SITE INTEIRO */
+body{
+    background-color: #343941;
+    height: 100%;
+}
+/* RODAPE' */
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #16181c;
+    margin: 0 auto;
+}
+
+.logoface img {
+    width: 1.5%;
+    height: 1.5%;
+    float: right;
+    margin-top: 0.4%;
+    margin-right: 10%;
+    filter: invert(30%);
+    margin-bottom: 0.4%;
+}
+
+.logoface img:hover{
+    filter:invert(100%) brightness(100%)
+}
+
+.logoinsta img {
+    width: 1.5%;
+    height: 1.5%;
+    float: right;
+    margin-top: 0.4%;
+    margin-right: 1%;
+    filter: invert(30%);
+    margin-bottom: 0.4%;
+}
+
+.logoinsta img:hover{
+    filter:invert(100%) brightness(100%)
+
+}
+
+.logoemail img {
+    width: 1.5%;
+    height: 1.5%;
+    float: right;
+    margin-top: 0.4%;
+    margin-right: 1%;
+    filter: invert(30%);
+    margin-bottom: 0.4%;
+}
+
+.logoemail img:hover{
+    filter:invert(100%) brightness(100%)
+
+}
+
+/* MAIN SITE */
+
+body{
+    background-color: #343941;
+    height: 100%;
+}
+
+/* TITULO SPÓTIFAI */
+.titulozada {
+    height: 90%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 8%;
+    text-shadow: red -2px 0, cyan 2px 0;
+    font-family: monospace;
+    font-size: 300%;
+    color: #d0d0d0;
+}
+
+#tabelinha{
+    width: 60%;
+    margin-left: 23%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.artigotabela{
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    overflow: hidden;
+    border-collapse: collapse;
+    border:solid rgb(23, 0, 36);
+    border-width    : 3px 3px 3px 3px;
+    background-color: #4f197a;
+  }
+
+  tr:hover {
+    background-color: rgb(253, 61, 228);
+    border:solid rgb(23, 0, 36);
+  }
+
+  td{
+    text-align:start;
+    font-size: 120%;
+  }
+  th{
+    border:solid rgb(23, 0, 36);
+  }
+.titulim_tabela{
+    font-size: xx-large;
+}
+.cantor {
+    text-align: center;
+}
+.logoyt img{
+    width: 6%;
+    height: 6%;
+}
+#logodessa{
+    width: 6%;
+    height: 6%;
+    filter: invert(1);
+}
+
+.logoyt img:hover{
+    filter: invert(1);
+}
+
+.titulo{
+    height: 90%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 8%;
+    text-shadow: red -2px 0, cyan 2px 0;
+    font-family: monospace;
+    font-size: 200%;
+    color: #d0d0d0;
+}
+
+.texto{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 1%;
+    font-size: 120%;
+    text-align: center;
+    color: #d0d0d0;
+}
+
+.videoanitta{
+    margin-left: 32%;
+    height: 90%;
+    width: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.vejanoyt{
+    float:left;
+    margin-bottom: 5%;
+    margin-left: 9%;
+    font-size: x-large;
+    color: aqua;
+}
+.vejanoyt:hover{
+    color: rgb(253, 61, 228);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="spotifai.png">
+    <link href="cadastrese.css" rel="stylesheet">
+    <title>Spótifai</title>
+    <script src="https://kit.fontawesome.com/54769ea2cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="tudao">
+        <nav class="cabeçalho">
+            <a class="logo" href="index.html"><img src="spotifai.png" alt="logo site" ></a>
+                <ul>
+                    <li><a href="top10mundiais.html">Top 10 mundial</a></li>
+                    <li><a href="top5internacionais_e_mundiais.html">Top's do momento </a></li>
+                    <li><a href="cadastrese.html">Cadastre-se</a></li>
+                </ul>
+        </nav>
+        <nav class="vertical">
+            <ul class="ulvertical">
+                <li> Enjoy </li>
+                <li><a href="https://www.youtube.com/watch?v=H5v3kku4y6Q"> <img class="youtubelogo" src="playlogo.png" alt="Logo Play"> </a></li>
+                <li><a href="https://www.youtube.com/watch?v=qod03PVTLqk"> <img class="youtubelogo" src="playlogo.png" alt="Logo Play"> </a></li>
+                <li><a href="https://www.youtube.com/watch?v=cqhxE_NGEm8"> <img class="youtubelogo" src="playlogo.png" alt="Logo Play"> </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        
+        <section>
+
+            
+
+            <form method="GET" action="forms.html" class="formulario">
+                <h1> CADASTRE-SE </h1>
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="nome" minlength="4" placeholder="Digite seu nome" required> 
+            
+                </div>
+                <div>
+                    <label>Nick Name</label>
+                    <input type="text" name="nome" minlength="3" placeholder="Escolha seu nick" required> 
+
+                </div>
+                <div>
+                    <label>Data de Nascimento</label>
+                    <input type="date" name="nascimento" required>
+                </div>
+
+                <div>
+                    <label>Senha do usuário</label>
+                    <input type="password" name="senhadousuario" minlength="4" maxlength="10" required>
+                </div>
+                
+                <div>
+                    <label> Estado Civil</label>
+                    <select name="select_civil" id="civil">
+        
+                        <option value="1"> --- </option>
+                        <option selected value="2">Solteiro</option>
+                        <option value="3">Casado</option>
+                        <option value="4">Divorciado</option>
+                        <option value="5">Viúvo</option>
+                    
+                    </select>
+                </div>
+            
+                <div> 
+                    <label>Escolha o horário</label>
+                    <input type="time" name="time">         
+                </div>
+                
+                <div> 
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>
+        </section>  
+        
+
+    </main>
+
+    <footer class="fixarRodape">
+        <a class="logoface" href="https://www.facebook.com/giovane.guimaraes.16/"><img src="logoface.png" alt="logo face"> </a> 
+        <a class="logoinsta"  href="https://www.instagram.com/pedroallvarez/"><img src="logoinsta.png" alt="logo insta"> </a> 
+        <a class="logoemail" href="mailto:pedro.alvarez@aluno.ifsp.edu.br"> <img src="logoemail.png" alt="logo email"></a>
+    </footer>
+</body>

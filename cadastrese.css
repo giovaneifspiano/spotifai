@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: large;
+}
+/* CABEÇALHO */
+header {
+    width: 100%;
+    height: 2cm;
+    background-color: #22262c;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+/* CABEÇALHO */
+header .cabeçalho {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3cm;
+    background-color: #22262c;
+    background-size: cover;
+    
+}
+/* CABEÇALHO */
+header .cabeçalho li{
+    display: inline-block;
+}
+/* CABEÇALHO */
+header .cabeçalho a{
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+/* CABEÇALHO */
+header .cabeçalho ul a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(119, 83, 124);
+}
+/* CABEÇALHO */
+.logo img{
+    margin-left: 1%;
+    width: 65px;
+    height: 65px;
+}
+
+.youtubelogo{
+    width: 50%;
+    height: 50%;   
+}
+
+.youtubelogo:hover{
+    filter: invert(75%);
+    }
+
+
+.vertical li{
+    text-shadow: red -2px 0, cyan 2px 0;
+    font-family: monospace;
+    color: #d0d0d0;
+    font-size: 180%;
+}   
+
+
+.vertical .ulvertical{
+    text-align: center;
+}
+/* CABEÇALHO */
+.logo:hover{
+    filter:invert(75%)
+}
+
+/* CABEÇALHO VERTICAL */
+.vertical{
+    margin-top: 5%;
+    position: fixed;
+    width: 7%;
+    height: 500%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #22262c;
+    background-size: cover;
+    
+}
+.vertical li{
+    display: inline-block;
+    margin-top: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vertical a{
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+
+.vertical ul a:hover{
+    color: rgb(119, 83, 124);
+
+}
+
+body { 
+    background-color: #343941;
+    height: 100%;
+}
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #16181c;
+    margin: 0 auto;
+}
+
+.logoface img {
+    width: 1.5%;
+    height: 1.5%;
+    float: right;
+    margin-top: 0.4%;
+    margin-right: 10%;
+    filter: invert(30%);
+    margin-bottom: 0.4%;
+}
+
+.logoface img:hover{
+    filter:invert(100%) brightness(100%)
+}
+
+.logoinsta img {
+    width: 1.5%;
+    height: 1.5%;
+    float: right;
+    margin-top: 0.4%;
+    margin-right: 1%;
+    filter: invert(30%);
+    margin-bottom: 0.4%;
+}
+
+.logoinsta img:hover{
+    filter:invert(100%) brightness(100%)
+
+}
+
+.logoemail img {
+    width: 1.5%;
+    height: 1.5%;
+    float: right;
+    margin-top: 0.4%;
+    margin-right: 1%;
+    filter: invert(30%);
+    margin-bottom: 0.4%;
+
+}
+
+.logoemail img:hover{
+    filter:invert(100%) brightness(100%)
+}
+
+
+h1{
+    margin-top: 20%;
+    text-shadow: red -2px 0, cyan 2px 0;
+    margin-bottom: 30%;
+    margin-left: 23%;
+    font-size: 150%;
+    color: #d0d0d0;
+   
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form{
+    font-family: monospace;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid rgb(96, 27, 105);
+    border-radius: 20px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: rgb(119, 83, 124);
+}
+
+form input[type=submit] {
+    background-color: #4f197a;
+    color:white;
+    cursor: pointer;
+    
+}
+
+form label {
+    color: #d0d0d0;
+    font-family: monospace;
+    font-size: large;
+    margin-left: 10px;
+}
